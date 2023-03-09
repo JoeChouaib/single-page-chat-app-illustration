@@ -1,0 +1,347 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fafafa;
+  font-family: "Poppins", sans-serif;
+  /*height: 100%;*/
+}
+body main {
+  background-color: #fafafa;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+body main .first-container {
+  display: flex;
+  width: 50%;
+  position: relative;
+}
+body main .first-container .colored {
+  background-image: linear-gradient(to top, #913bfe, #c940ff);
+  width: 26.5vw;
+  height: 95vh;
+  border-radius: 0px 0px 170px 170px;
+  position: absolute;
+}
+body main .first-container .phone {
+  width: 216px;
+  height: 440px;
+  border: 6px solid #ffffff;
+  background-color: #f5f3f8;
+  box-shadow: rgba(0, 0, 0, 0.1) 11px 18px 15px;
+  border-radius: 25px;
+  margin: 17vh auto auto 22.5vw;
+  z-index: 2;
+}
+body main .first-container .phone .top-white-bar {
+  background-color: #ffffff;
+  border-radius: 10px;
+  width: 55%;
+  height: 37%;
+  margin: -24px auto auto auto;
+}
+body main .first-container .phone header {
+  background-image: linear-gradient(to right, #913bfe, #e957ff);
+  border-radius: 20px 20px 5px 5px;
+  width: 100%;
+  height: 16%;
+  padding-top: 18px;
+}
+body main .first-container .phone header .chat-header {
+  width: 100%;
+  display: flex;
+  padding-top: 10px;
+}
+body main .first-container .phone header .chat-header img {
+  width: 13%;
+  height: 13%;
+  border-radius: 15px;
+  border: 2px solid #c6a0d2;
+}
+body main .first-container .phone header .chat-header .chat-description-header {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 13px 0px 5px;
+}
+body main .first-container .phone header .chat-header .chat-description-header .name {
+  font-size: 13px;
+  color: #f1cffa;
+}
+body main .first-container .phone header .chat-header .chat-description-header .status {
+  font-size: 9px;
+  color: #d574ff;
+}
+body main .first-container .phone header .chat-header .fa-ellipsis-vertical {
+  padding: 5px 0px 0px 34px;
+  color: #fafafa;
+  font-size: 12px;
+}
+body main .first-container .phone header .chat-header .fa-angle-left {
+  padding: 4px 5px 0px 10px;
+  color: #fafafa;
+}
+body main .first-container .phone .discussion .first-msg {
+  border: 1px solid #ede5f4;
+  background-color: #ede5f4;
+  margin: 8px 85px 6px 5px;
+  border-radius: 10px 10px 10px 3px;
+  color: #c8aada;
+}
+body main .first-container .phone .discussion .first-msg p {
+  font-size: 7px;
+  padding: 3px 4px 3px 8px;
+}
+body main .first-container .phone .discussion .second-msg {
+  border: 1px solid #ede5f4;
+  background-color: #ede5f4;
+  margin: 5px 85px 15px 5px;
+  border-radius: 10px 10px 10px 3px;
+  color: #c8aada;
+}
+body main .first-container .phone .discussion .second-msg p {
+  font-size: 7px;
+  padding: 3px 4px 3px 8px;
+}
+body main .first-container .phone .discussion .third-msg {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 97%;
+}
+body main .first-container .phone .discussion .third-msg img {
+  width: 20%;
+  border-radius: 4px;
+  margin-left: 5px;
+}
+body main .first-container .phone .discussion .fourth-msg {
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  margin: 5px 5px 6px 90px;
+  border-radius: 10px 10px 3px 10px;
+  color: #b2afb5;
+}
+body main .first-container .phone .discussion .fourth-msg p {
+  font-size: 7px;
+  padding: 3px 4px 3px 8px;
+}
+body main .first-container .phone .discussion .fifth-msg {
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  margin: 5px 5px 15px 120px;
+  border-radius: 10px 10px 3px 10px;
+  color: #b2afb5;
+}
+body main .first-container .phone .discussion .fifth-msg p {
+  font-size: 7px;
+  padding: 3px 4px 3px 8px;
+}
+body main .first-container .phone .discussion .sixth-msg {
+  border: 1px solid #ede5f4;
+  background-color: #ede5f4;
+  margin: 5px 85px 6px 5px;
+  border-radius: 10px 10px 10px 3px;
+  color: #c8aada;
+}
+body main .first-container .phone .discussion .sixth-msg p {
+  font-size: 7px;
+  padding: 3px 4px 3px 8px;
+}
+body main .first-container .phone .discussion .seventh-msg {
+  display: flex;
+  justify-content: space-evenly;
+  border: 1px solid #ede5f4;
+  background-image: linear-gradient(to right, #e957ff, #913bfe);
+  color: #f6d7ff;
+  margin: 5px 85px 6px 5px;
+  border-radius: 10px 10px 10px 3px;
+}
+body main .first-container .phone .discussion .seventh-msg p {
+  font-size: 6px;
+  padding-top: 5px;
+}
+body main .first-container .phone .discussion .seventh-msg span {
+  font-size: 12px;
+  font-weight: bolder;
+}
+body main .first-container .phone .discussion .eighth-msg {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid #ede5f4;
+  background-image: linear-gradient(to right, #e957ff, #913bfe);
+  margin: 5px 85px 6px 5px;
+  border-radius: 10px 10px 10px 3px;
+  color: #f6d7ff;
+}
+body main .first-container .phone .discussion .eighth-msg p {
+  font-size: 6px;
+  padding-top: 5px;
+}
+body main .first-container .phone .discussion .eighth-msg span {
+  font-size: 12px;
+  font-weight: bolder;
+}
+body main .first-container .phone .discussion .typing-bar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  margin: 10px 5px;
+  border-radius: 25px;
+  padding: 4px 5px;
+}
+body main .first-container .phone .discussion .typing-bar p {
+  font-size: 9px;
+  padding: 4px 4px 3px 8px;
+  opacity: 0.3;
+}
+body main .first-container .phone .discussion .typing-bar .fa-angle-right {
+  border: 1px solid black;
+  color: #ffffff;
+  background-color: black;
+  border-radius: 16px;
+  padding: 3px 7px;
+}
+body main .second-container {
+  width: 50%;
+  position: relative;
+  display: flex;
+}
+body main .second-container .section {
+  margin: 30% 0;
+  z-index: 2;
+}
+body main .second-container .section h1 {
+  font-size: clamp(0.3rem, 3vw, 2rem);
+  padding-bottom: 20px;
+}
+body main .second-container .section p {
+  font-size: clamp(0.3rem, 1.2vw, 1.5rem);
+  color: #bfbec3;
+}
+body main .second-container .second-colored {
+  background-color: #f9f4fa;
+  width: 23vw;
+  height: 80vh;
+  border-radius: 150px 0px 0px 0px;
+  margin: 118px 346px 0px;
+  position: absolute;
+}
+@media screen and (max-width: 810px) {
+  body main {
+    display: flex;
+    flex-direction: column;
+  }
+  body main .first-container {
+    width: 100vw;
+  }
+  body main .first-container .colored {
+    width: 50vw;
+    height: 56vh;
+    border-radius: 0px 0px 266px 0px;
+  }
+  body main .first-container .phone {
+    margin: 100px auto;
+    width: 313px;
+    height: 562px;
+    border: 7px solid #ffffff;
+    border-radius: 35px;
+  }
+  body main .first-container .phone header {
+    border-radius: 32px 32px 5px 5px;
+    height: 15%;
+    padding-top: 32px;
+  }
+  body main .first-container .phone header .top-white-bar {
+    margin-top: -38px;
+  }
+  body main .first-container .phone header .chat-header .fa-angle-left {
+    padding: 11px 9px 0px 19px;
+    font-size: 20px;
+  }
+  body main .first-container .phone header .chat-header img {
+    border-radius: 21px;
+  }
+  body main .first-container .phone header .chat-header .chat-description-header {
+    padding: 3px 13px 0px 13px;
+  }
+  body main .first-container .phone header .chat-header .fa-ellipsis-vertical {
+    padding: 12px 0px 0px 90px;
+    font-size: 16px;
+  }
+  body main .first-container .phone .discussion .first-msg {
+    margin: 8px 160px 6px 5px;
+  }
+  body main .first-container .phone .discussion .first-msg p {
+    font-size: 10px;
+  }
+  body main .first-container .phone .discussion .second-msg {
+    margin: 8px 155px 6px 5px;
+  }
+  body main .first-container .phone .discussion .second-msg p {
+    font-size: 10px;
+  }
+  body main .first-container .phone .discussion .third-msg {
+    margin-top: 15px;
+  }
+  body main .first-container .phone .discussion .fourth-msg {
+    margin: 5px 6px 6px 133px;
+  }
+  body main .first-container .phone .discussion .fourth-msg p {
+    font-size: 10px;
+  }
+  body main .first-container .phone .discussion .fifth-msg {
+    margin: 5px 5px 15px 202px;
+  }
+  body main .first-container .phone .discussion .fifth-msg p {
+    font-size: 10px;
+  }
+  body main .first-container .phone .discussion .sixth-msg {
+    margin: 5px 135px 6px 5px;
+  }
+  body main .first-container .phone .discussion .sixth-msg p {
+    font-size: 10px;
+  }
+  body main .first-container .phone .discussion .seventh-msg {
+    margin: 5px 136px 6px 5px;
+  }
+  body main .first-container .phone .discussion .seventh-msg span {
+    font-size: 16px;
+  }
+  body main .first-container .phone .discussion .seventh-msg p {
+    font-size: 10px;
+  }
+  body main .first-container .phone .discussion .eighth-msg {
+    margin: 5px 134px 6px 5px;
+  }
+  body main .first-container .phone .discussion .eighth-msg span {
+    font-size: 16px;
+  }
+  body main .first-container .phone .discussion .eighth-msg p {
+    font-size: 10px;
+  }
+  body main .second-container {
+    width: 100vw;
+  }
+  body main .second-container .section {
+    text-align: center;
+    padding: 0px 10vw;
+    margin-top: 35px;
+  }
+  body main .second-container .section br {
+    display: none;
+  }
+  body main .second-container .section h1 {
+    font-size: 28px;
+  }
+  body main .second-container .section p {
+    font-size: 19px;
+  }
+  body main .second-container .second-colored {
+    width: 55vw;
+    height: 30vh;
+    border-radius: 266px 0px 0px 0px;
+    margin: 118px 220px 0px;
+  }
+}/*# sourceMappingURL=style.css.map */
